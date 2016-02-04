@@ -1,8 +1,11 @@
 /* Custom stylesheet */
-/*body {
+body {
 	padding-bottom: 70px;
-}*/
+}
 
 header {
 	margin-top: 15px;
+}
+address {
+	margin: 0;
 }
