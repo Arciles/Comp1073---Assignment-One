@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e207d411-c7a3-487d-8dec-a84809085c90" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contents/img/ai-assignment.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contents/img/design-final-project.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contents/img/font-assignment.png" afterPath="" />
+    <list default="true" id="e207d411-c7a3-487d-8dec-a84809085c90" name="Default" comment="Images are changed due to format incompatabilty and some custom css added to app.css">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/contents/img/ai-assignment.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/contents/img/design-final-project.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/contents/img/font-assignment.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contents/css/app.css" afterPath="$PROJECT_DIR$/contents/css/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio.html" afterPath="$PROJECT_DIR$/portfolio.html" />
     </list>
     <ignored path="Comp1073-Assignment1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,8 +37,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.09977827">
-              <caret line="41" column="23" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.5509978">
+              <caret line="74" column="81" selection-start-line="74" selection-start-column="81" selection-end-line="74" selection-end-column="81" />
               <folding />
             </state>
           </provider>
@@ -281,6 +279,9 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="e207d411-c7a3-487d-8dec-a84809085c90" name="Default" comment="" />
@@ -336,7 +337,13 @@
       <option name="project" value="LOCAL" />
       <updated>1455133042270</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Images are changed due to format incompatabilty and some custom css added to app.css">
+      <created>1455133916326</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1455133916326</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView">
@@ -386,7 +393,8 @@
     <MESSAGE value="Redirect with JavaScript is added to the page. IIFE tested  and it successfuly works. and some alterations" />
     <MESSAGE value="Heading and bio in the index.html are getting their text from JavaScript." />
     <MESSAGE value="New images for portfolio added to the project" />
-    <option name="LAST_COMMIT_MESSAGE" value="New images for portfolio added to the project" />
+    <MESSAGE value="Images are changed due to format incompatabilty and some custom css added to app.css" />
+    <option name="LAST_COMMIT_MESSAGE" value="Images are changed due to format incompatabilty and some custom css added to app.css" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -536,8 +544,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09977827">
-          <caret line="41" column="23" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.5509978">
+          <caret line="74" column="81" selection-start-line="74" selection-start-column="81" selection-end-line="74" selection-end-column="81" />
           <folding />
         </state>
       </provider>
