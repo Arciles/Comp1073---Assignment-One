@@ -7,11 +7,14 @@
 (function(){
 	//alert("Tryout 1 2 3");
 
-	var myCurrentBio = 'd.ksnalkdnsa.n,d.nsa,mnd,msanas,mdn';
-	var mparagrapghHtml;
+	var myCurrentBio = 'my Bio that coming from JavaScript';
+	var myHeading = 'My Biography!';
 
-	mparagrapghHtml = document.getElementById("myBio");
-	mparagrapghHtml.innerHTML = myCurrentBio;
+	document.getElementById("myBio").innerHTML = myCurrentBio;
+	document.getElementById("myHeading").innerHTML = myHeading;
+
+
+
 
 })();
 
