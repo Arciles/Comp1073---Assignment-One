@@ -5,8 +5,13 @@
  */
 
 (function(){
-
 	//alert("Tryout 1 2 3");
+
+	var myCurrentBio = 'd.ksnalkdnsa.n,d.nsa,mnd,msanas,mdn';
+	var mparagrapghHtml;
+
+	mparagrapghHtml = document.getElementById("myBio");
+	mparagrapghHtml.innerHTML = myCurrentBio;
 
 })();
 
