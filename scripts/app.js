@@ -20,11 +20,19 @@
 		}
 	});
 	setTimeout(function(){
+		// bio part
 		document.getElementById("paragraphOne").innerHTML = mData.BiographyOne;
 		document.getElementById("paragraphTwo").innerHTML = mData.BiographyTwo;
+		// Project one Title and the text
+		document.getElementById("projectOneTitle").innerHTML = mData.ProjectOneTitle;
+		document.getElementById("projectOneText").innerHTML = mData.ProjectOneText;
+		// Project two Title and the Text
+		document.getElementById("projectTwoTitle").innerHTML = mData.ProjectTwoTitle;
+		document.getElementById("projectTwoText").innerHTML = mData.ProjectTwoText;
+		// Project three Title and the Text
+		document.getElementById("projectThreeTitle").innerHTML = mData.ProjectThreeTitle;
+		document.getElementById("projectThreeText").innerHTML = mData.ProjectThreeText;
 	}, 100);
-
-
 
 
 	/*//alert("Tryout 1 2 3");
@@ -46,9 +54,9 @@
 	document.getElementById("projectTwoTitle").innerHTML = projectTwoTitle;
 	document.getElementById("projectThreeTitle").innerHTML = projectThreeTitle;
 
-	/!*document.getElementById("projectOneText").innerHTML = projectOneText;
+	document.getElementById("projectOneText").innerHTML = projectOneText;
 	document.getElementById("projectTwoText").innerHTML = projectTwoText;
-	document.getElementById("projectThreeText").innerHTML = projectThreeText;*!/
+	document.getElementById("projectThreeText").innerHTML = projectThreeText;*/
 
 
 	document.getElementById("btnSend").addEventListener("click", function(){
@@ -56,7 +64,7 @@
 		console.log('success');
 		//this.className += ' scroll-top page-scroll';
 		window.location.href = "#page-top";
-	});*/
+	});
 
 
 })();
