@@ -9,7 +9,25 @@
  */
 
 (function(){
-	//alert("Tryout 1 2 3");
+	var mData;
+	$.ajax({
+		url: "\data.json",
+		dataType:"text",
+		success: function (data) {
+			//console.log(data);
+			mData = JSON.parse(data);
+			console.log(mData);
+		}
+	});
+	setTimeout(function(){
+		document.getElementById("paragraphOne").innerHTML = mData.BiographyOne;
+		document.getElementById("paragraphTwo").innerHTML = mData.BiographyTwo;
+	}, 100);
+
+
+
+
+	/*//alert("Tryout 1 2 3");
 
 	var myHeading = 'My Biography!';
 	var myCurrentBioOne = 'my Bio that coming from JavaScript';
@@ -28,9 +46,9 @@
 	document.getElementById("projectTwoTitle").innerHTML = projectTwoTitle;
 	document.getElementById("projectThreeTitle").innerHTML = projectThreeTitle;
 
-	/*document.getElementById("projectOneText").innerHTML = projectOneText;
+	/!*document.getElementById("projectOneText").innerHTML = projectOneText;
 	document.getElementById("projectTwoText").innerHTML = projectTwoText;
-	document.getElementById("projectThreeText").innerHTML = projectThreeText;*/
+	document.getElementById("projectThreeText").innerHTML = projectThreeText;*!/
 
 
 	document.getElementById("btnSend").addEventListener("click", function(){
@@ -38,9 +56,7 @@
 		console.log('success');
 		//this.className += ' scroll-top page-scroll';
 		window.location.href = "#page-top";
-	});
-
+	});*/
 
 
 })();
-
