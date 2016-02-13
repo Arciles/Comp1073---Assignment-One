@@ -32,7 +32,7 @@
 		// Project three Title and the Text
 		document.getElementById("projectThreeTitle").innerHTML = mData.ProjectThreeTitle;
 		document.getElementById("projectThreeText").innerHTML = mData.ProjectThreeText;
-	}, 100);
+	}, 300);
 
 
 	/*//alert("Tryout 1 2 3");
