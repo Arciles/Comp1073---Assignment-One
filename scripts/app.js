@@ -63,8 +63,14 @@
 		alert("You succesfully sent your massage!");
 		console.log('success');
 		//this.className += ' scroll-top page-scroll';
+		var uName = document.getElementById('name').value;
+		var uEmail = document.getElementById('email').value;
+		var uPhone = document.getElementById('phone').value;
+		var uMessage = document.getElementById('message').value;
+		// I'm using template strings from ECMAScript 6
+		console.log(`Values that comes from User,\n Name: ${uName}\n E-mail: ${uEmail}\n Phone Number: ${uPhone}\n Message: ${uMessage}\n`);
 		window.location.href = "#page-top";
 	});
-
+ 
 
 })();
